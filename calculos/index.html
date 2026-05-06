@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculos</title>
+</head>
+<body>
+    <nav>
+        <a href="../calculos/">Cálculos</a>
+        <a href="../calculadoraGPT/">Calculadora GPT</a>
+        <a href="../media/">Média</a>
+        <a href="../idade/">Idade</a>
+        <a href="../bootstrap/">Bootstrap</a>
+        <a href="../print/">Print</a>
+    </nav>
+    <h1>Calculadora</h1>
+    <main>
+            <div class="calculo">
+            <h2>Soma</h2>
+            <div>
+                <label for="sum_A">Número A</label>
+                <input type="number" id="sum_A">
+                <label for="sum_B">Número B</label>
+                <input type="number" id="sum_B">
+            </div>
+            <button onclick="somar()">Pronto</button>
+            <p id="ans_sum">A Soma dos números é: </p>
+        </div>
+        <div class="calculo">
+            <h2>Subtração</h2>
+            <div>
+                <label for="sub_A">Número A</label>
+                <input type="number" id="sub_A">
+                <label for="sub_B">Número B</label>
+                <input type="number" id="sub_B">
+            </div>
+            <button onclick="subt()">Pronto</button>
+            <p id="ans_sub">A Soma dos números é: </p>
+        </div>
+        <div class="calculo">
+            <h2>Multiplicação</h2>
+            <div>
+                <label for="mult_A">Número A</label>
+                <input type="number" id="mult_A">
+                <label for="mult_B">Número B</label>
+                <input type="number" id="mult_B">
+            </div>
+            <button onclick="mult()">Pronto</button>
+            <p id="ans_mult">A Soma dos números é: </p>
+        </div>
+        <div class="calculo">
+            <h2>Divisão</h2>
+            <div>
+                <label for="divs_A">Número A</label>
+                <input type="number" id="divs_A">
+                <label for="divs_B">Número B</label>
+                <input type="number" id="divs_B">
+            </div>
+            <button onclick="divs()">Pronto</button>
+            <p id="ans_divs">A Soma dos números é: </p>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+    
+</body>
+</html>
